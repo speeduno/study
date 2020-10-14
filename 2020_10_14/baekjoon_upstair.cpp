@@ -34,7 +34,7 @@ int main()
 
 	for (int i = 3; i < number; i++)
 	{
-		dp[i] = max(dp[i - 2] + str[i], dp[i] = dp[i - 3] + str[i - 1] + str[i]);
+		dp[i] = max(dp[i - 2] + str[i], dp[i - 3] + str[i - 1] + str[i]);
 
 		cout << dp[i] << endl;
 	}
