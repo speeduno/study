@@ -12,9 +12,6 @@ int main()
 	int number = 0;
 	cin >> number; 
 
-	//점화식 최대f(x) = f(x-1) + f(x)
-
-
 	for (int i = 0; i < number; i++)
 	{
 		int stair;
